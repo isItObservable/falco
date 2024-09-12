@@ -105,3 +105,15 @@ chmod 777 deployment.sh
 ```
 
 ## Tutorial Steps
+
+### Falco Dashboard
+
+Let's deploy the dashboard located : `dynatrace/Falco.json`
+
+In dynatrace , Open The Dashboard application and click on upload
+<p align="center"><img src="/image/dashboard.png" width="40%" alt="Collector dashboard" /></p>
+
+This dashboard will keep track on the health of falco:
+- ressource usage
+- the various rules
+- The falco events
